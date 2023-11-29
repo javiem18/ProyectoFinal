@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Configurador de Coches</title>
+    <link rel="stylesheet" href="config.css">
+  </head>
+  <body>
+    <header>
+      <h1>Configure su 911 Turbo</h1>
+    </header>
+    <main>
+      <div id="configurador">
+        <div id="Opciones">
+          <h2>Elige el color:</h2>
+          <input type="radio" id="rojo" name="color" value="Rojo">
+          <label for="red">Rojo</label><br>
+          <input type="radio" id="Azul" name="color" value="Azul">
+          <label for="blue">Azul</label><br>
+          <input type="radio" id="Negro" name="color" value="Negro">
+          <label for="black">Negro</label>
+          <h2>Elige el tipo de llantas:</h2>
+          <input type="radio" id="llantas1" name="wheelType" value="Llantas1">
+          <label for="standard">Llantas 1</label><br>
+          <input type="radio" id="llantas2" name="wheelType" value="LLantas2">
+          <label for="sport">LLantas 2</label><br>
+          <input type="radio" id="lantas3" name="wheelType" value="Llantas3">
+          <label for="luxury">LLantas 3</label>
+        </div>
+        <div id="PrevisualizaciónExt">
+          <h2>Vista Previa:</h2>
+          <img id="carImage" src="car_exterior.png" alt="Coche">
+        </div>
+      </div>
+
+      <div id="OpcionesInterior">
+        <h2>Elige el tipo de interior:</h2>
+          <input type="radio" id="interior1" name="interiorType" value="Interior1">
+          <label for="interior1">Interior 1</label><br>
+          <input type="radio" id="interior2" name="interiorType" value="Interior2">
+          <label for="interior2">Interior 2</label><br>
+          <input type="radio" id="interior3" name="interiorType" value="Interior3">
+          <label for="interior3">Interior 3</label>
+      </div>
+      <div id="PrevisualizaciónInt">
+        <h2>Vista Previa Interior:</h2>
+        <img id="carInterior" src="car_interior.png" alt="Coche">
+      </div>
+      <section id="Introducción">
+        <h2>Contacto</h2>
+        <div id="div1">
+          <p>
+            Vaya al siguiente enlace si está interesado y quiere conocer los precios
+          </p>
+          <button id="contacto">Solicitud de información</button>
+        </div>
+    </main>
+    <script src="config.js"></script>
+  </body>
+</html>

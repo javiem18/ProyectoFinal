@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Porsche 911 Turbo</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <h1>Porsche 911 Turbo</h1>
+      <nav>
+        <ul>
+          <li><a href="#Introducción">Introducción</a></li>
+          <li><a href="#Especificaciones">Especificaciones</a></li>
+          <li><a href="#Galería">Galería</a></li>
+          <li><a href="#Configurador">Sonidos y configurador</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="Introducción">
+        <h2>Introducción</h2>
+        <div id="div1">
+          <p>
+            El Porsche 911 Turbo es un automóvil deportivo producido por la marca alemana
+            Porsche. Su diseño y su potente motor lo convierten en un deportivo de altisímas prestaciones
+          </p>
+        </div>
+        <div id="div2">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/rGObN2F6Hbg?si=DUJPSowVrRhtFhDM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section id="Especificaciones">
+        <h2>Especificaciones</h2>
+        <ul>
+          <li>Motor: 3.8 litros twin-turbo</li>
+          <li>Potencia: 580 HP</li>
+          <li>Velocidad máxima: 330 km/h</li>
+          <li>Aceleración 0-100 km/h: 2.8 segundos</li>
+        </ul>
+      </section>
+
+      <section id="Galería">
+        <h2>Galería</h2>
+        <div class="fotos">
+          <div class="foto fade">
+            <img src="https://files.porsche.com/filestore/galleryimagerwd/multimedia/none/992-tu-gallery-exterior-16/zoom2/08c62584-831d-11eb-80d3-005056bbdc38;sP;twebp/porsche-zoom2.webp" width="525px" height="300px">
+          </div>
+          <div class="foto fade">
+            <img src="https://files.porsche.com/filestore/galleryimagerwd/multimedia/none/992-tu-gallery-interior-02/zoom2/9c8c8eb3-6213-11ea-80c8-005056bbdc38;sP;twebp/porsche-zoom2.webp" width="525px" height="300px">
+          </div>
+          <div class="foto fade">
+            <img src="https://files.porsche.com/filestore/galleryimagerwd/multimedia/none/992-tu-gallery-interior-04/zoom2/2c5f787b-47f7-11ea-80c8-005056bbdc38;sR;twebp/porsche-zoom2.webp" width="525px" height="300px">
+          </div>
+          <div class="foto fade">
+            <img src="https://noticias.coches.com/wp-content/uploads/2020/03/Porsche-911-Turbo-S-Cabrio-2020-3.jpeg" width="525px" height="300px">
+          </div>
+          <div class="foto fade">
+            <img src="https://files.porsche.com/filestore/galleryimagerwd/multimedia/none/992-tu-gallery-interior-03/zoom2/8479230a-8d9c-11ec-80e9-005056bbdc38;sR;twebp/porsche-zoom2.webp" width="525px" height="300px">
+          </div>
+          <div class="foto fade">
+            <img src="https://files.porsche.com/filestore/galleryimagerwd/multimedia/none/992-tu-gallery-exterior-02/zoom2/78b9ad24-8b2b-11ec-80e9-005056bbdc38;sR;twebp/porsche-zoom2.webp" width="525px" height="300px">
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </section>
+      <section id="Configurador">
+        <h2>Sonidos y configurador</h2>
+        <ul>
+          <p>
+            Pulse el siguiente botón para arrancar el motor:
+          </p>
+          <button id="Start"></button>
+          <audio id="arranque" preload="auto">
+            <source src="sonido.mp4" type="audio/mpeg">
+          </audio>
+          <p>
+            Puede configurar su porsche haciendo click en el siguiente botón
+          </p>
+          <button id="config">Ir a configuración</button>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Porsche 911 Turbo</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
